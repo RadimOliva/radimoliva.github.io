@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap">
+  <style>
+    body { font-family: 'Inter', sans-serif; background: white; color: #333; margin: 0; padding: 0; }
+    a { text-decoration: none; transition: color .3s ease; }
+    a:hover { color: #555; }
+    header, footer { text-align: center; padding: 1rem; }
+    main { max-width: 800px; margin: auto; padding: 1rem; }
+    body { opacity: 0; transition: opacity .6s ease; }
+    body.js-ready { opacity: 1; }
+  </style>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => document.body.classList.add('js-ready'));
+  </script>
+</head>
+<body>
+  <header>
+    <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+    <nav>
+      <a href="{{ '/' | relative_url }}">Home</a> |
+      <a href="{{ '/projects' | relative_url }}">Projects</a> |
+      <a href="{{ '/journal/' | relative_url }}">Journal</a>
+    </nav>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+  <footer>
+    &copy; {{ site.time | date: '%Y' }} {{ site.title }}
+  </footer>
+</body>
+</html>
