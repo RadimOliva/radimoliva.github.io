@@ -6,6 +6,6 @@ title: Journal
 
 <ul>
 {% for post in site.posts %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  <li><span class="entry-date">{{ post.date | date: "%B %-d, %Y" }}</span> - <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
