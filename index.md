@@ -4,4 +4,4 @@ title: Home
 ---
 
 
-Welcome to my portfolio website. I build things and write about them.
+Welcome to my personal website. I am documenting my journey of learning, writing and building.
