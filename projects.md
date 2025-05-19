@@ -4,4 +4,4 @@ title: Projects
 ---
 # Projects
 
-- [**Self-discovery application**](/self-discovery-application): app that helps user find their meaningful path.
+- [**Self-discovery application**](/projects/self-discovery-application): A brief description.

@@ -1,2 +1,2 @@
 # radimoliva.github.io
-Personal portfolio
+Personal website
