@@ -63,6 +63,14 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: var(--spacing-sm);
 }
 
+blockquote {
+    border-left: 4px solid #ccc;
+    padding-left: 1em;
+    color: #686868;
+    font-style: italic;
+    margin: 1em 0;
+}
+
 /* Links */
 a {
   color: var(--color-link);
