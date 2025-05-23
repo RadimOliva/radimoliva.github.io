@@ -71,6 +71,14 @@ blockquote {
     margin: 1em 0;
 }
 
+.datum {
+  color: #ffffff;
+  background-color: #6b729a;
+  font-style: italic;
+  padding: 0.2em 0.5em;
+  border-radius: 0.2em;
+}
+
 /* Links */
 a {
   color: var(--color-link);
