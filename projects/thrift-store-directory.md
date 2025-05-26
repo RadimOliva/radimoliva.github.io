@@ -3,8 +3,7 @@ layout: page
 title: Thrift store directory
 ---
 # Thrift store directory
-
-<span class="datum">May 23, 2025</span>
+<p class="datum">May 23, 2025</p>
 <p>
 I have instructed Cursor AI and had it make me a very simple webpage with plain HTML/CSS/JS and a JSON file and Leaflet integration (for a map) to get a feel for how difficult it is to vibecode something. It was easy at first but then I ran into some problems rather quickly. It managed to make a simple map with few markers, it worked correctly, but when I wanted Cursor to add couple of design changes it started to fall apart. Map was beginning to show erratic behaviour when zooming in and out, Cursor did not style exactly as I thought it would etc. I can't imagine trying to vibecode an actual complex webapp in this manner. I was thoroughly discouraged from further trying to instruct the agent to repair the bugs and make the changes as I have imagined them in my head. I must not let the discouragement affect me. Instead I have to learn to effectively communicate my vision. Communicate better. Minimize the potential for the agent's self-interpretation and minimize the chance of an error due to lack of imformation. These agents can scan through pictures, diagrams and screenshots. It is a must to include a diagram or UI mockup in my prompts to make sure the agent has the highest chance to code what I envision.
 </p>
@@ -17,7 +16,7 @@ So a simple map that is just a very rough shape. Now suppose I have fifty stores
 I think I should start by coming up with a UI/UX design first and then concern myself with the coding later, because it is hard to translate to the AI agent what I want it to build without knowing myself first. Right. 
 </p>
 
-<span class="datum">May 20, 2025</span>
+<p class="datum">May 20, 2025</p>
 <p>
 I set out to create a simple web and mobile app that will list out local second hand stores in a pleasant, easy to view way. That's about it for now. I have more ideas on various features that could be added but for now I'll be happy if I manage to just produce this basic concept.  
 Frankly I have no clue how app development works so I'll have to find that out.
