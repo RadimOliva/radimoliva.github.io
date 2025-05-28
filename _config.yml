@@ -7,5 +7,13 @@ collections:
     output: true
     permalink: /projects/:path/
 
+defaults:
+  - scope:
+      path: "_projects"
+      type: "projects"
+    values:
+      layout: page
+      is_project: true
+
 exclude_from_posts:
   - "_projects/**"
