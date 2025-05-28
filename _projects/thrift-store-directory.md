@@ -3,7 +3,9 @@ layout: page
 title: Thrift store directory
 date: 2025-05-28
 ---
+
 # Thrift store directory
+
 *May 28, 2025*
 
 Right now I will build the app with Tempo AI builder. It works on react framework, I can view the code, has a visual Figma-like interface integration, can export/import from and into GitHub. Honestly all of that seems too good to be true, but I'll see.
@@ -11,49 +13,64 @@ I've wanted to try out this builder for a while but I've been putting it off ver
 
 First I start with the prompt:  
 
-#### Goal:
+## Goal
+
 I want you to build me an MVP of an online directory for second hand stores in Prague.   
 
-#### Crucial concepts to keep in mind:  
-- minimalist, simple and visually pleasing, calm, non-distracting design  
-- mobile-friendly and responsive (majority of users are expected to come from mobile devices)  
-- lightning-fast load times, buttery smooth responses  
-- simplest possible techstack to minimize bloat and number of potential bugs.  
+## Crucial concepts to keep in mind
 
-#### Project goal:  
-- to give users easy, elegant and fast overview of Second Hand store locations in the city of Prague with the basic information about each store.
+* minimalist, simple and visually pleasing, calm, non-distracting design  
+* mobile-friendly and responsive (majority of users are expected to come from mobile devices)  
+* lightning-fast load times, buttery smooth responses  
+* simplest possible techstack to minimize bloat and number of potential bugs
 
-#### Target demographic:
-- users who don't want to go through the search engine listings looking at individual store pages or through general directories that are not very user-friendly and visually attractive.  
+## Project goal
 
-#### Features & Requirements:
-1. **Landing Page Design** (visual reference in image landing_page.png):
-    - **Block_A: Heading with the title**
-        - title: "Sekáče v Praze"
-    - **Block_B: Carousel of thrift stores**
-        - pulled from a database of all the stores
-        - 5 stores in a single row
-        - a button on each side of the carousel, when clicked it moves the visible list by 5 stores (or less if not available) in the appropriate direction (in a smooth animation)
-        - design of a single element of this list: border-less rectangular (taller than wide) image of the store with a store title in the bottom displayed on top of the image
-    - **Block_C: Interactive area for Map and Store_Page**
-        - by default shows map of Prague (referred to as Map) zoomed to show about 3/4 of the Prague city area (Map)
-        - on the Map are shown markers with the geolocation of each store in the database
-        - clicking on a marker on the Map or a store from the Carousel (Block_B) opens up a Store_Page
-        - whenever Store_Page is displayed the Block_C gets divided between the Map (left side, 30% of the area) and the Store_Page (right side, 70% of the area), this division happens in an animated fashion (both the Map and Store_page live inside the Block_C)
-    - **Map**
-        - minimal tile design, fast load times and smooth transitions, movement and zooming are of utmost importance
-    - **Store_Page**
-        - Store Image
-        - Photo Gallery
-        - Store Title
-        - Opnening Hours
-        - Address
-        - Description 
-    - **Database:**
-        - Only to keep the store data
-    - **Design and typography**
-        - for color and typography reference use visual_design.jpg image.
-        - use modern and minimal styling
+To give users easy, elegant and fast overview of Second Hand store locations in the city of Prague with the basic information about each store.
+
+## Target demographic
+
+Users who don't want to go through the search engine listings looking at individual store pages or through general directories that are not very user-friendly and visually attractive.  
+
+## Features & Requirements
+
+### 1. Landing Page Design
+(visual reference in image landing_page.png)
+
+#### Block_A: Heading with the title
+* title: "Sekáče v Praze"
+
+#### Block_B: Carousel of thrift stores
+* pulled from a database of all the stores
+* 5 stores in a single row
+* a button on each side of the carousel, when clicked it moves the visible list by 5 stores (or less if not available) in the appropriate direction (in a smooth animation)
+* design of a single element of this list: border-less rectangular (taller than wide) image of the store with a store title in the bottom displayed on top of the image
+
+#### Block_C: Interactive area for Map and Store_Page
+* by default shows map of Prague (referred to as Map) zoomed to show about 3/4 of the Prague city area (Map)
+* on the Map are shown markers with the geolocation of each store in the database
+* clicking on a marker on the Map or a store from the Carousel (Block_B) opens up a Store_Page
+* whenever Store_Page is displayed the Block_C gets divided between the Map (left side, 30% of the area) and the Store_Page (right side, 70% of the area), this division happens in an animated fashion (both the Map and Store_page live inside the Block_C)
+
+#### Map
+* minimal tile design, fast load times and smooth transitions, movement and zooming are of utmost importance
+
+#### Store_Page
+* Store Image
+* Photo Gallery
+* Store Title
+* Opening Hours
+* Address
+* Description 
+
+#### Database
+* Only to keep the store data
+
+#### Design and typography
+* for color and typography reference use visual_design.jpg image
+* use modern and minimal styling
+
+---
 
 *May 23, 2025*
 
@@ -65,6 +82,8 @@ I need to think harder about what is it that I actually want to build here.
 An online directory list of Second Hand shops in Prague. Simple landing page that is visually pleasing. I want the map to be incorporated but not a fully fleshed out detailed map, just a simple representation of a map of Prague. The problem I am pondering now is how to style this and especially on mobile devices. Simplicity is key. I don't want a plain list 1-n. But if there are going to be large amounts of stores then how to make it so they all get some real-estate. I dislike the idea of just a boring ol' cartographic map with some markers. It needs to be better. Altough I myself am a map connonsieur most people, probably, don't like to scroll maps endlessly and god-knows how many of them don't even know how to use a map in the first place. 
 So a simple map that is just a very rough shape. Now suppose I have fifty stores in my directory, how do I shove them on the map without forcing the user to scroll around endlessly? Should there be a featured stores? I just wonder if people use maps anyway.  
 I think I should start by coming up with a UI/UX design first and then concern myself with the coding later, because it is hard to translate to the AI agent what I want it to build without knowing myself first. Right. 
+
+---
 
 *May 20, 2025*
 
