@@ -11,28 +11,28 @@ date: 2025-05-28
 Right now I will build the app with Tempo AI builder. It works on react framework, I can view the code, has a visual Figma-like interface integration, can export/import from and into GitHub. Honestly all of that seems too good to be true, but I'll see.
 I've wanted to try out this builder for a while but I've been putting it off very bravely. Mostly because I am extremely put off by anything that seems too complex, which is funny because I've learned very complex things in my life, an example would be the video game Europa Universalis, which is exceedingly complex and there's no way in hell anyone can just sit down to play this bad boy and have a good time. I need to approach this as if it were a video game. So let's start playing.  
 
-First I start with the prompt:  
+## Tempo Prompt:  
 
-## Goal
+### Goal
 
 I want you to build me an MVP of an online directory for second hand stores in Prague.   
 
-## Crucial concepts to keep in mind
+### Crucial concepts to keep in mind
 
 * minimalist, simple and visually pleasing, calm, non-distracting design  
 * mobile-friendly and responsive (majority of users are expected to come from mobile devices)  
 * lightning-fast load times, buttery smooth responses  
 * simplest possible techstack to minimize bloat and number of potential bugs
 
-## Project goal
+### Project goal
 
 To give users easy, elegant and fast overview of Second Hand store locations in the city of Prague with the basic information about each store.
 
-## Target demographic
+### Target demographic
 
 Users who don't want to go through the search engine listings looking at individual store pages or through general directories that are not very user-friendly and visually attractive.  
 
-## Features & Requirements
+### Features & Requirements
 
 ### 1. Landing Page Design
 (visual reference in image landing_page.png)
@@ -63,12 +63,13 @@ Users who don't want to go through the search engine listings looking at individ
 * Address
 * Description 
 
-#### Database
-* Only to keep the store data
-
 #### Design and typography
 * for color and typography reference use visual_design.jpg image
 * use modern and minimal styling
+
+### 2. Database
+* Only to keep the store data
+
 
 ---
 
