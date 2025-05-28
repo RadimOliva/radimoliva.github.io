@@ -11,18 +11,18 @@ date: 2025-05-28
 Right now I will build the app with Tempo AI builder. It works on react framework, I can view the code, has a visual Figma-like interface integration, can export/import from and into GitHub. Honestly all of that seems too good to be true, but I'll see.
 I've wanted to try out this builder for a while but I've been putting it off very bravely. Mostly because I am extremely put off by anything that seems too complex, which is funny because I've learned very complex things in my life, an example would be the video game Europa Universalis, which is exceedingly complex and there's no way in hell anyone can just sit down to play this bad boy and have a good time. I need to approach this as if it were a video game. So let's start playing.  
 
-## Tempo Prompt:  
+## Tempo Prompt:
 
 ### Goal
 
-I want you to build me an MVP of an online directory for second hand stores in Prague.   
+I want you to build me an MVP of an online directory for second hand stores in Prague.
 
 ### Crucial concepts to keep in mind
 
-* minimalist, simple and visually pleasing, calm, non-distracting design  
-* mobile-friendly and responsive (majority of users are expected to come from mobile devices)  
-* lightning-fast load times, buttery smooth responses  
-* simplest possible techstack to minimize bloat and number of potential bugs
+  * minimalist, simple and visually pleasing, calm, non-distracting design  
+  * mobile-friendly and responsive (majority of users are expected to come from mobile devices)  
+  * lightning-fast load times, buttery smooth responses  
+  * simplest possible techstack to minimize bloat and number of potential bugs
 
 ### Project goal
 
@@ -30,45 +30,44 @@ To give users easy, elegant and fast overview of Second Hand store locations in 
 
 ### Target demographic
 
-Users who don't want to go through the search engine listings looking at individual store pages or through general directories that are not very user-friendly and visually attractive.  
+Users who don't want to go through the search engine listings looking at individual store pages or through general directories that are not very user-friendly and visually attractive.
 
 ### Features & Requirements
 
-### 1. Landing Page Design
-(visual reference in image landing_page.png)
+1. Landing Page Design (visual reference in image landing_page.png):
 
-#### Block_A: Heading with the title
-* title: "Sekáče v Praze"
+    Block_A: Heading with the title
+    * title: "Sekáče v Praze"
 
-#### Block_B: Carousel of thrift stores
-* pulled from a database of all the stores
-* 5 stores in a single row
-* a button on each side of the carousel, when clicked it moves the visible list by 5 stores (or less if not available) in the appropriate direction (in a smooth animation)
-* design of a single element of this list: border-less rectangular (taller than wide) image of the store with a store title in the bottom displayed on top of the image
+    Block_B: Carousel of thrift stores
+    * pulled from a database of all the stores
+    * 5 stores in a single row
+    * a button on each side of the carousel, when clicked it moves the visible list by 5 stores (or less if not available) in the appropriate direction (in a smooth animation)
+    * design of a single element of this list: border-less rectangular (taller than wide) image of the store with a store title in the bottom displayed on top of the image
 
-#### Block_C: Interactive area for Map and Store_Page
-* by default shows map of Prague (referred to as Map) zoomed to show about 3/4 of the Prague city area (Map)
-* on the Map are shown markers with the geolocation of each store in the database
-* clicking on a marker on the Map or a store from the Carousel (Block_B) opens up a Store_Page
-* whenever Store_Page is displayed the Block_C gets divided between the Map (left side, 30% of the area) and the Store_Page (right side, 70% of the area), this division happens in an animated fashion (both the Map and Store_page live inside the Block_C)
+    Block_C: Interactive area for Map and Store_Page
+    * by default shows map of Prague (referred to as Map) zoomed to show about 3/4 of the Prague city area (Map)
+    * on the Map are shown markers with the geolocation of each store in the database
+    * clicking on a marker on the Map or a store from the Carousel (Block_B) opens up a Store_Page
+    * whenever Store_Page is displayed the Block_C gets divided between the Map (left side, 30% of the area) and the Store_Page (right side, 70% of the area), this division happens in an animated fashion (both the Map and Store_page live inside the Block_C)
 
-#### Map
-* minimal tile design, fast load times and smooth transitions, movement and zooming are of utmost importance
+    Map
+    * minimal tile design, fast load times and smooth transitions, movement and zooming are of utmost importance
 
-#### Store_Page
-* Store Image
-* Photo Gallery
-* Store Title
-* Opening Hours
-* Address
-* Description 
+    Store_Page
+    * Store Image
+    * Photo Gallery
+    * Store Title
+    * Opening Hours
+    * Address
+    * Description 
 
-#### Design and typography
-* for color and typography reference use visual_design.jpg image
-* use modern and minimal styling
+2. Database:
+    * Only to keep the store data
 
-### 2. Database
-* Only to keep the store data
+3. Design and typography:
+    * for color and typography reference use visual_design.jpg image
+    * use modern and minimal styling
 
 
 ---
