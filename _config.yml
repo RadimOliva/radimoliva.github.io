@@ -6,3 +6,6 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+
+exclude_from_posts:
+  - "_projects/**"
