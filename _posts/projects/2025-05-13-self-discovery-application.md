@@ -2,7 +2,6 @@
 layout: page
 title: Self-discovery application
 date: 2025-05-13
-permalink: /projects/self-discovery-application/
 ---
 # Self-discovery application
 *May 13, 2025*
