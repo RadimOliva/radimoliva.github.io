@@ -3,7 +3,64 @@ layout: page
 title: Thrift store directory
 ---
 # Thrift store directory
-<p class="datum">May 23, 2025</p>
+<span class="datum">May 28, 2025</span>
+<p>
+Right now I will build the app with Tempo AI builder. It works on react framework, I can view the code, has a visual Figma-like interface integration, can export/import from and into GitHub. Honestly all of that seems too good to be true, but I'll see.
+I've wanted to try out this builder for a while but I've been putting it off very bravely. Mostly because I am extremely put off by anything that seems too complex, which is funny because I've learned very complex things in my life, an example would be the video game Europa Universalis, which is exceedingly complex and there's no way in hell anyone can just sit down to play this bad boy and have a good time. I need to approach this as if it were a video game. So let's start playing.  
+
+First I start with the prompt:  
+
+#### Goal:
+I want you to build me an MVP of an online directory for second hand stores in Prague.   
+#### Crucial concepts to keep in mind:  
+
+- minimalist, simple and visually pleasing, calm, non-distracting design  
+- mobile-friendly and responsive (majority of users are expected to come from mobile devices)  
+- lightning-fast load times, buttery smooth responses  
+- simplest possible techstack to minimize bloat and number of potential bugs.  
+
+#### Project goal:  
+- to give users easy, elegant and fast overview of Second Hand store locations in the city of Prague with the basic information about each store.
+
+#### Target demographic:
+- users who don't want to go through the search engine listings looking at individual store pages or through general directories that are not very user-friendly and visually attractive.  
+
+#### Features & Requirements:
+1. **Landing Page Design** (visual reference in image landing_page.png:
+
+   - **Block_A: Heading with the title** 
+     - title: "Sekáče v Praze"
+   - **Block_B: Carousel of thrift stores**
+     - pulled from a database of all the stores
+     - 5 stores in a single row
+     - a button on each side of the carousel, when clicked it moves the visible list by 5 stores (or less if not available) in the appropriate direction (in a smooth animation)
+     - design of a single element of this list: border-less rectangular (taller than wide) image of the store with a store title in the bottom displayed on top of the image
+   - **Block_C: Interactive area for Map and Store_Page**
+     - by default shows map of Prague (referred to as Map) zoomed to show about 3/4 of the Prague city area (Map)
+     - on the Map are shown markers with the geolocation of each store in the database
+     - clicking on a marker on the Map or a store from the Carousel (Block_B) opens up a Store_Page
+     - whenever Store_Page is displayed the Block_C gets divided between the Map (left side, 30% of the area) and the Store_Page (right side, 70% of the area), this division happens in an animated fashion (both the Map and Store_page live inside the Block_C)
+    - **Map**
+      - minimal tile design, fast load times and smooth transitions, movement and zooming are of utmost importance
+    - **Store_Page**
+      - Store Image
+      - Photo Gallery
+      - Store Title
+      - Opnening Hours
+      - Address
+      - Description 
+    - **Database:**
+      - Only to keep the store data
+    - **Design and typography**
+      - for color and typography reference use visual_design.jpg image.
+      - use modern and minimal styling
+</p>
+
+
+
+
+
+<span class="datum">May 23, 2025</span>
 <p>
 I have instructed Cursor AI and had it make me a very simple webpage with plain HTML/CSS/JS and a JSON file and Leaflet integration (for a map) to get a feel for how difficult it is to vibecode something. It was easy at first but then I ran into some problems rather quickly. It managed to make a simple map with few markers, it worked correctly, but when I wanted Cursor to add couple of design changes it started to fall apart. Map was beginning to show erratic behaviour when zooming in and out, Cursor did not style exactly as I thought it would etc. I can't imagine trying to vibecode an actual complex webapp in this manner. I was thoroughly discouraged from further trying to instruct the agent to repair the bugs and make the changes as I have imagined them in my head. I must not let the discouragement affect me. Instead I have to learn to effectively communicate my vision. Communicate better. Minimize the potential for the agent's self-interpretation and minimize the chance of an error due to lack of imformation. These agents can scan through pictures, diagrams and screenshots. It is a must to include a diagram or UI mockup in my prompts to make sure the agent has the highest chance to code what I envision.
 </p>
@@ -16,7 +73,7 @@ So a simple map that is just a very rough shape. Now suppose I have fifty stores
 I think I should start by coming up with a UI/UX design first and then concern myself with the coding later, because it is hard to translate to the AI agent what I want it to build without knowing myself first. Right. 
 </p>
 
-<p class="datum">May 20, 2025</p>
+<span class="datum">May 20, 2025</span>
 <p>
 I set out to create a simple web and mobile app that will list out local second hand stores in a pleasant, easy to view way. That's about it for now. I have more ideas on various features that could be added but for now I'll be happy if I manage to just produce this basic concept.  
 Frankly I have no clue how app development works so I'll have to find that out.
