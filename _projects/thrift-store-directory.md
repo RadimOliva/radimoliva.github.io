@@ -19,10 +19,10 @@ I want you to build me an MVP of an online directory for second hand stores in P
 
 ### Crucial concepts to keep in mind
 
-  * minimalist, simple and visually pleasing, calm, non-distracting design  
-  * mobile-friendly and responsive (majority of users are expected to come from mobile devices)  
-  * lightning-fast load times, buttery smooth responses  
-  * simplest possible techstack to minimize bloat and number of potential bugs
+* minimalist, simple and visually pleasing, calm, non-distracting design
+* mobile-friendly and responsive (majority of users are expected to come from mobile devices)
+* lightning-fast load times, buttery smooth responses
+* simplest possible techstack to minimize bloat and number of potential bugs
 
 ### Project goal
 
@@ -60,12 +60,12 @@ Users who don't want to go through the search engine listings looking at individ
     * Store Title
     * Opening Hours
     * Address
-    * Description 
+    * Description
 
-2. Database:
+2. Database
     * Only to keep the store data
 
-3. Design and typography:
+3. Design and typography
     * for color and typography reference use visual_design.jpg image
     * use modern and minimal styling
 
