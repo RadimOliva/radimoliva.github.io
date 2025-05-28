@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Thrift store directory
+date: 2025-05-28
+permalink: /projects/thrift-store-directory/
 ---
 # Thrift store directory
 *May 28, 2025*
